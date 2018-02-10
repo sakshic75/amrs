@@ -1,0 +1,26 @@
+[debug] [2018-02-10T11:32:17.590Z] ----------------------------------------------------------------------
+[debug] [2018-02-10T11:32:17.593Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sakshi\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-02-10T11:32:17.593Z] CLI Version:   3.17.4
+[debug] [2018-02-10T11:32:17.593Z] Platform:      win32
+[debug] [2018-02-10T11:32:17.593Z] Node Version:  v9.5.0
+[debug] [2018-02-10T11:32:17.596Z] Time:          Sat Feb 10 2018 17:02:17 GMT+0530 (India Standard Time)
+[debug] [2018-02-10T11:32:17.596Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-10T11:32:17.610Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-10T11:32:17.611Z] > authorizing via signed-in user
+[debug] [2018-02-10T11:32:17.613Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/amrs-14d73  
+  
+ Sat Feb 10 2018 17:02:17 GMT+0530 (India Standard Time)
+[debug] [2018-02-10T11:32:25.785Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-10T11:32:25.786Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/amrs-14d73/tokens  
+  
+ Sat Feb 10 2018 17:02:25 GMT+0530 (India Standard Time)
+[debug] [2018-02-10T11:32:30.814Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'amrs-14d73'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing firebasehost directory for upload...
+[debug] [2018-02-10T11:32:39.101Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/amrs-14d73/uploads/-L4zUFtAv2D6JuIPXjaO?fileCount=77&message=  
+  
+ Sat Feb 10 2018 17:02:39 GMT+0530 (India Standard Time)
